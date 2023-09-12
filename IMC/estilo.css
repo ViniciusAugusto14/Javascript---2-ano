@@ -1,0 +1,17 @@
+  .formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 2px;
+    margin: 2em;
+    font-family: 'Sedgwick Ave Display', cursive;
+    width: 30%;
+  }
+.forms{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
