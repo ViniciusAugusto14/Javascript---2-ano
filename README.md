@@ -7,3 +7,5 @@ https://viniciusaugusto14.github.io/Javascript---2-ano/LAÇOS/index.html
 https://viniciusaugusto14.github.io/Javascript---2-ano/IMC/index.html
 # Aula Funçoes 
 https://viniciusaugusto14.github.io/Javascript---2-ano/FUNCOES/funcoes.html
+# Aula Formulario
+https://viniciusaugusto14.github.io/Javascript---2-ano/dadosinfo/index.html
