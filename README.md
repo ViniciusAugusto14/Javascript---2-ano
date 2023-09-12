@@ -3,4 +3,5 @@
 https://viniciusaugusto14.github.io/Javascript---2-ano/DECLARACAODEVARIAVEIS/aula1.html
 # Aula Laços
 https://viniciusaugusto14.github.io/Javascript---2-ano/LAÇOS/index.html
-
+# Aula IMC
+https://viniciusaugusto14.github.io/Javascript---2-ano/IMC/index.html
