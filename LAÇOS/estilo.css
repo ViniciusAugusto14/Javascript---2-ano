@@ -1,0 +1,24 @@
+.Tabuada{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(4, 123, 235, 0.986);
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 2px;
+    margin: 2em;
+    font-family: 'Sedgwick Ave Display', cursive;
+    width: 30%;
+  }
+.tabu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.calcular{
+  background-color: rgba(7, 87, 161, 0.986);
+  border-radius: 20px;
+  width: 100%;
+  border: none;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
