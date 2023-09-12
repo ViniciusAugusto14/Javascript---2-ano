@@ -5,3 +5,5 @@ https://viniciusaugusto14.github.io/Javascript---2-ano/DECLARACAODEVARIAVEIS/aul
 https://viniciusaugusto14.github.io/Javascript---2-ano/LAÇOS/index.html
 # Aula IMC
 https://viniciusaugusto14.github.io/Javascript---2-ano/IMC/index.html
+# Aula Funçoes 
+https://viniciusaugusto14.github.io/Javascript---2-ano/FUNCOES/funcoes.html
