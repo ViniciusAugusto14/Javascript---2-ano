@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilo.css">
+        <title>0rientação a Objeto</title>
+    </head>
+    <body>
+        <header class="fixo">
+            <div>
+                <h1>Aula orientação a objeto</h1>
+            </div>
+        </header>
+        <section class="explicacao">
+            <h1>O que é orientação a objeto no JS</h1>
+            <p class="comeco">Como a maioria das atividades que fazemos no dia a dia, programar também possui modos diferentes de se fazer. Esses modos são chamados de paradigmas de programação e, entre eles, estão a programação orientada a objetos (POO) e a programação estruturada. Quando começamos a utilizar linguagens como Java, C#, Python e outras que possibilitam o paradigma orientado a objetos, é comum errarmos e aplicarmos a programação estruturada achando que estamos usando recursos da orientação a objetos.</p>
+            <p class="meio">Na programação estruturada, um programa é composto por três tipos básicos de estruturas: são os comandos a serem executados condições sequências que só devem ser executadas se uma condição for satisfeita (exemplos: if-else, switch e comandos parecidos)repetições: sequências que devem ser executadas repetidamente até uma condição for satisfeita (for, while, do-while etc)</p>
+            <p class="fim">A programação orientada a objetos surgiu como uma alternativa a essas características da programação estruturada. O intuito da sua criação também foi o de aproximar o manuseio das estruturas de um programa ao manuseio das coisas do mundo real, daí o nome "objeto" como uma algo genérico, que pode representar qualquer coisa tangível.</p>
+        </section>
+        <section class="cadastro_pessoa">
+            <div class="titulo">
+                <h2>Cadastro da pessoa</h2>
+            </div>
+            <div class="formulario">
+                <form action="" id="personForm">
+                    <p>Nome</p>
+                    <input type="text" name="firstName" id="firstName">
+                    <p>Sobrenome</p>
+                    <input type="text" name="lastName" id="lastName">
+                    <p>Linguagem</p>
+                    <input type="text" name="language" id="language"><br>
+                    <input type="submit" value="enviar" name="submit" onclick="e()">
+                </form>
+            </div>
+            <div class="resultado" id="textContent">
+                <p>Nome:</p>
+                <p class="primeiro" id="displayFirstName"></p>
+                <p>Sobrenome:</p>
+                <p class="sobrenome" id="displayLastName"></p>
+                <p>Linguagem:</p>
+                <p class="Linguagem" id="displayLanguage"></p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <footer>
+            <p class="center">Desenvolvido por Vinicius Augusto</p>
+        </footer>
+    </body>
+</html>
