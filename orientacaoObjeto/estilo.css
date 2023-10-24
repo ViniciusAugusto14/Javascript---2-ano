@@ -94,3 +94,11 @@ footer p{
     font-size: 20px;
 
 }
+@media screen and (max-width:767px){
+    .explicacao,.formulario,.resultado{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 8%;
+    }
+
+}
