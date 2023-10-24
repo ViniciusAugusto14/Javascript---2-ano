@@ -9,3 +9,5 @@ https://viniciusaugusto14.github.io/Javascript---2-ano/IMC/index.html
 https://viniciusaugusto14.github.io/Javascript---2-ano/FUNCOES/funcoes.html
 # Aula Formulario
 https://viniciusaugusto14.github.io/Javascript---2-ano/dadosinfo/index.html
+# Aula Orientaçao a Obejto
+https://viniciusaugusto14.github.io/Javascript---2-ano/orientacaoObjeto/index.html
