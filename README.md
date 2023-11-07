@@ -11,3 +11,5 @@ https://viniciusaugusto14.github.io/Javascript---2-ano/FUNCOES/funcoes.html
 https://viniciusaugusto14.github.io/Javascript---2-ano/dadosinfo/index.html
 # Aula Orientaçao a Obejto
 https://viniciusaugusto14.github.io/Javascript---2-ano/orientacaoObjeto/index.html
+# Atividade Imagens
+https://viniciusaugusto14.github.io/Javascript---2-ano/IMAGENS/index.html
