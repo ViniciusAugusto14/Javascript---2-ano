@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>JQuery e RegeX-O Que São</title>
+</head>
+<body>
+    <header class="text-center ">
+        <h1>jQuery e RegeX</h1>
+    </header>
+
+    <section class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    O que é Regex
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p>
+                        Expressões regulares (ou regex, as vezes regexp) são sequências de caracteres que descrevem um padrão de busca em um texto. Elas foram desenvolvidas para fazer buscas em texto de forma eficiente, e por isso mesmo que você ache que elas não façam parte do seu dia a dia, toda vez que você usa Ctrl+F no seu navegador ou editor de texto, elas estão lá (mesmo que escondidas).
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Alguns casos bem comuns de utilização de regex são:
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p>
+                        - Pesquisa ou formatação de data (trocar de dd/mm/aaaa para aaaa-mm-dd por exemplo)
+                        
+                        - Pesquisa de PII dentro da sua base de dados (CPF, email)
+                        
+                        - Validação de campos com formatos específicos (telefone, email, CPF)
+                        
+                        A ideia é que possamos usar regex para otimizar processos, e não para torná-los mais complicados.
+                    </p>
+                    </div>
+                </div>
+                </div>
+                
+          
+            </div>
+    </section>
+    <br>
+    <br>
+    <main class="container">
+        <section id="galeria-troca">
+            <div class="text-center">
+                    <div class="row">
+                        <div class="col-md-12 cor1">
+                            <img id="main-image" src="img/calleri.jpg" alt="">
+                        </div>    
+                        <div class="row">
+                            <div class="col-md-4 cor2">
+                                <img class="bottom-image" src="img/nestor.jpeg" alt="" >
+                            </div> 
+                            <div class="col-md-4 cor3">
+                                <img class="bottom-image" src="img/campeao.jpg" alt="">
+                            </div> 
+                            <div class="col-md-4 cor4">
+                                <img class="bottom-image" src="img/taca.jpg" alt="">
+                            </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <h1>Cadastro</h1>
+      <form class="formulario"  id="personForm" >
+          <div class="input-group mb-3">
+            <span class="input-group-text">Nome</span>
+            <input type="text"  id="nome" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" >Email</span>
+            <input type="text" id="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Data de Nascimento</span>
+            <input type="text" class="form-control" id="dataNascimento" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Telefone</span>
+            <input type="text" class="form-control" id="telefone" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">CPF</span>
+            <input type="text" class="form-control" id="cpf" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          
+        </form>
+    </div>
+    <br>
+
+        <footer>
+            <p>Desenvolvido por Vinicius Augusto</h1>
+        </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/script_forms.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
